@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuActivity">
+
+    <LinearLayout
+        android:layout_width="809dp"
+        android:layout_height="1046dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="566dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="30dp"
+            android:text="TickTech"
+            android:textSize="60sp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="25dp"
+            android:background="@drawable/edittext_custom"
+            android:hint="Correo Electronico"
+            android:inputType="textEmailAddress"
+            android:padding="15dp"
+            android:textSize="15sp" />
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="25dp"
+            android:background="@drawable/edittext_custom"
+            android:hint="Contraseña"
+            android:inputType="textPassword"
+            android:padding="15dp"
+            android:textSize="15sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:gravity="center_vertical"
+            android:orientation="vertical" />
+
+        <Button
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:background="@drawable/rounded_button"
+            android:backgroundTint="@color/btn_color"
+            android:text="Pagar"
+            android:layout_marginTop="25dp"
+            android:drawableLeft="@drawable/perfil"
+            android:paddingLeft="60dp"
+
+            android:layout_marginStart="20dp"/>
+
+        <Button
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:background="@drawable/rounded_button"
+            android:backgroundTint="@color/btn_color"
+            android:text="Datos"
+            android:layout_marginTop="25dp"
+            android:drawableLeft="@drawable/perfil"
+            android:paddingLeft="60dp"
+
+            android:layout_marginStart="20dp"/>
+
+
+        <Button
+            android:layout_width="95dp"
+            android:layout_height="95dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="320dp"
+            android:layout_marginRight="255dp"
+            android:background="@drawable/rounded_button"
+            android:backgroundTint="@color/btn_color"
+            android:drawableLeft="@drawable/perfil"
+            android:paddingLeft="5dp"
+
+            android:text="Perfil" />
+    </LinearLayout>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
